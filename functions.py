@@ -47,3 +47,15 @@ def test():
 
       filther_not_equal([3, 2, 1], 1)
 print(test())
+
+matrix = [
+      [1, 2, 3],
+      [4, 5, 6],
+      [7, 8, 9]
+]
+
+def triangle_for_matrix(matrix):
+      summ = 0
+
+      for i in range(0, len(matrix)):
+            summ += matrix
