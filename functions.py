@@ -37,3 +37,13 @@ def filther_not_equal(arr, value):
     
                 print(f"Массив с элементами не равные value: {new_lst}")
                 return new_lst
+
+def test():
+      filter_greather([4, 3, 2, 12], 3)
+
+      filther_less([2, 3, 4, 5], 3)
+
+      filther_equal([2, 3, 4, 66], 66)
+      
+      filther_not_equal([3, 2, 1], 1)
+      
