@@ -27,3 +27,13 @@ def filther_equal(arr, value):
     
             print(f"Массив с элементами, которые равны value: {value}")
             return new_lst
+
+def filther_not_equal(arr, value):
+            new_lst = []
+
+            for i in range(0, len(arr)):
+                if arr[i] != value:
+                    new_lst.append(arr[i])
+    
+                print(f"Массив с элементами не равные value: {new_lst}")
+                return new_lst
