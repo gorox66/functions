@@ -44,6 +44,6 @@ def test():
       filther_less([2, 3, 4, 5], 3)
 
       filther_equal([2, 3, 4, 66], 66)
-      
+
       filther_not_equal([3, 2, 1], 1)
-      
+print(test())
